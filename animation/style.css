@@ -1,0 +1,91 @@
+#body {
+    padding: 0 10px 20px; 
+    height: 4000px; 
+}
+
+body {
+    margin: 0px; 
+    padding: 0px; 
+    font-family: 'Roboto', Arial, sand-serif; 
+    padding-top: 48px; 
+    overflow: scroll; 
+    background-color: #ccc; 
+    background: linear-gradient(bisque, black); 
+}
+
+@font-face {
+    font-family: andreasNewFont; 
+    src: url('fonts/SquarePeg-Regular.ttf');
+}
+
+#page-title {
+    margin: 0 0 25px 0; 
+    padding: 0; 
+    border-bottom: 1px solid #aaa; 
+    font-weight: 300; 
+    font-family: andreasNewFont, cursive;
+}
+
+nav {
+    border-bottom-width: 2px; 
+    border-bottom-right-radius: #ccc;
+    border-bottom-style: solid;
+    padding: 10px; 
+    margin-bottom: 15px;
+    background-color: #fff; 
+    font-family: cursive;
+    position: fixed; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+}
+
+nav a {
+    color: #000; 
+    text-decoration: none; 
+}
+
+
+
+@keyframes cornertocorner {
+    0% {
+      left: 0;
+      top: 0;
+    }
+  
+    25% {
+      left: 0;
+      top: calc(100% - 75px);
+    }
+  
+    50% {
+      top: calc(100% - 75px);
+      left: calc(100% - 75px);
+    }
+  
+    75% {
+      left: calc(100% - 75px);
+      top: 0;
+    }
+  
+    100% {
+      left: 0;
+      top: 0;
+    }
+  }
+  
+  .box {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 75px;
+    height: 75px;
+    background-color: hotpink;
+    animation-name: cornertocorner;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+  }
+
