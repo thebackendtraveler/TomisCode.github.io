@@ -1,0 +1,43 @@
+#body {
+    padding: 0 10px 20px; 
+}
+
+#page-title {
+    margin: 0 0 25px 0; 
+    padding: 0; 
+    border-bottom: 1px solid #aaa; 
+    font-weight: 300; 
+}
+
+
+table {
+    border: 1px solid gainsboro; 
+}
+
+table td {
+    border: 1px solid #000000; 
+}
+
+table {
+    border: 1px solid #ccc; 
+    padding: 5px; 
+    font-family: 'Times New Roman', Times, serif; 
+    background-color: rgb(221, 103, 122); 
+}
+
+table td {
+    border: 1px solid gainsboro; 
+    text-align: center; 
+}
+
+table tr:hover {
+    background-color: #ccc; 
+}
+
+table tr:hover td:hover {
+    background-color: #aaa; 
+}
+
+thead {
+    background-color: pink; 
+}
